@@ -7,8 +7,8 @@ const ChatArea = () => {
   return (
     <div className="container">
       <p>Chat Area</p>
-      <BottomArea/>
       <MessageLayout/>
+      <BottomArea/>
     </div> 
   )
 }

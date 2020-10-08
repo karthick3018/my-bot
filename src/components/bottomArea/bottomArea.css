@@ -1,0 +1,9 @@
+.bottom-area {
+    width: 100%;
+    margin:20px 0px;
+}
+
+.bottom-area textarea {
+  height: 80px;
+  width: 100%;
+}
