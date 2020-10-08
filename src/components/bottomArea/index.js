@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './bottomArea.css';
 
-const BottomArea = () => {
+const BottomArea = ({handleNewReceivedMessage}) => {
   const [state,setState] = useState('');
 
   const handleTextAreaChange = (e) => {
@@ -10,7 +10,9 @@ const BottomArea = () => {
 
   const handleOnEnter = (e) => {
     if(e.key==='Enter'){
-      // handleOnClick(e.target.value);
+      e.preventDefault()
+      setState('');
+      handleNewReceivedMessage(e.target.value);
      }
   }
 
