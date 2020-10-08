@@ -1,4 +1,5 @@
 import React from 'react';
+import './messageLayout.css';
 
 const MessageLayout = () => {
   const temp = [
