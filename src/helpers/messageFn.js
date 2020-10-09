@@ -1,7 +1,7 @@
 export const generateReplyMessage = (message) => {
   message.toLowerCase();
   let resultMessage;
-  if (message.includes("hello") || message.includes("hi") || message.includes('hey')) {
+  if ((message.includes("hello") || message.includes("hi") || message.includes('hey'))&& !message.includes("this") ) {
     resultMessage = findMatchingResponse('Initial')
   }
   else if (message.includes("introduce") || message.includes("yourself")) {

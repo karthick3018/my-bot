@@ -22,6 +22,7 @@ const BottomArea = ({ handleNewReceivedMessage }) => {
         onChange={handleTextAreaChange}
         value={state}
         onKeyPress={handleOnEnter}
+        placeholder="ask something.."
       />
     </div>
   )

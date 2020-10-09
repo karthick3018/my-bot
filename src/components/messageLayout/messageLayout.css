@@ -3,17 +3,27 @@
   border-radius: 5px
 }
 
+.message-card p {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px 2px 30px 10px;
+}
+
 .sent {
-  border: 1px solid;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
+.sent p {
+  background: #16d09c;
+}
 
 .received {
-  border: 1px solid blue;
-  margin: 10px 0px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.received p {
+  background: #EFEFEF
 }

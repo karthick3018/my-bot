@@ -4,7 +4,7 @@ import { generateReplyMessage } from '../../helpers/messageFn';
 import './messageLayout.css';
 
 const initialState = {
-  messages: [],
+  messages: [{type:'sent',message:"Hi I'm a bot"}],
   isTyping: false
 }
 
@@ -54,7 +54,9 @@ const MessageLayout = () => {
   return (
     <div>
       {state?.messages?.map(eachMsg => (
-        <div className={`message-card ${eachMsg.type}`}> {eachMsg.message} </div>
+        <div className={`message-card ${eachMsg.type}`}> 
+         <p>{eachMsg.message}</p> 
+        </div>
       ))}
       <BottomArea handleNewReceivedMessage={handleNewReceivedMessage} />
       {state?.isTyping && <p>typing ....</p>}
