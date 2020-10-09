@@ -18,9 +18,9 @@ export const RESUME = `Yeah! You can find updated resume in the following link
 
 export const NOTICE_PERIOD = "If thinks went good I can join in next 30 days";
 
-export const SALARY_EXPECTATION = "Too early let's discuss this after interview";
+export const SALARY_EXPECTATION = "Too early I guess let's discuss this after interview";
 
-export const AVAILABILITY = "I'm Available from 4pm-8pm (IST) in the weekdays you can send a invite mail to karthickraja@gmail.com";
+export const AVAILABILITY = "I'm Available from 4pm-8pm (IST) in the weekdays you can send a invite mail to karthickraja3018@gmail.com";
 
 export const JOB_CHANGE = "Yeah I'm looking for a company that provides me challenging and friendly work environment";
 

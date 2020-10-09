@@ -35,6 +35,9 @@ const SuggestionList = ({handleMessageFromSuggestion}) => {
 
   const handleSuggestionClick = (suggestion,i) => {
     handleMessageFromSuggestion(Messages[suggestion?.value])
+    let updatedState = [...state];
+    updatedState.splice(i,1);
+    setState(updatedState);
   }
   return (
     <div className="suggestion">

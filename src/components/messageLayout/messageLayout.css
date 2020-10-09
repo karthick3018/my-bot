@@ -8,6 +8,8 @@
   padding: 10px;
   border-radius: 10px 2px 30px 10px;
   word-break: break-word;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .sent {
