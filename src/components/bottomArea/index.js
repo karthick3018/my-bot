@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SuggestionList from '../suggestions';
 import './bottomArea.css';
 
 const BottomArea = ({ handleNewReceivedMessage }) => {
@@ -16,8 +17,13 @@ const BottomArea = ({ handleNewReceivedMessage }) => {
     }
   }
 
+  const handleMessageFromSuggestion = (message) => {
+    setState(message);
+  }
+
   return (
     <div className="bottom-area">
+      <SuggestionList handleMessageFromSuggestion={handleMessageFromSuggestion} />
       <textarea
         onChange={handleTextAreaChange}
         value={state}

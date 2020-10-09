@@ -53,8 +53,8 @@ const MessageLayout = () => {
 
   return (
     <div>
-      {state?.messages?.map(eachMsg => (
-        <div className={`message-card ${eachMsg.type}`}> 
+      {state?.messages?.map((eachMsg,i) => (
+        <div key={i} className={`message-card ${eachMsg.type}`}> 
          <p>{eachMsg.message}</p> 
         </div>
       ))}

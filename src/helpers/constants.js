@@ -29,4 +29,13 @@ export const ABOUT_ME = `yeah sure!. I'm building web and mobile apps using reac
                           async operations.I Cover backed nodejs at needs
                          and can cover styling part too.Mainly loves react and javascript can code in typescript too. Thanks!`;
 
-export const DEFAULT = "Sry! can't get you";                         
+export const DEFAULT = "Sry! can't get you";     
+
+//Question
+export const YOUR_EXPERIENCE = "What is your total years of experience?";
+export const YOUR_RESUME = "Can you send your updated resume?";
+export const YOUR_NOTICE_PERIOD = "What is your notice period?";
+export const YOUR_SALARY_EXPECTATION = "What is your expected salary?";
+export const YOUR_INTRO = "Can you give a quick intro about yourself?";
+export const YOUR_JOB_CHANGE = "Are you looking for a job change?";
+export const YOUR_AVAILABILITY = "When will you be available for a online interview?";

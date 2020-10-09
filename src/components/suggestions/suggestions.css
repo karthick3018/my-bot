@@ -1,0 +1,14 @@
+.suggestion{
+  margin: 20px;
+}
+
+.suggestion-items {
+  background: lightcyan;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.suggestion-items:hover{
+  cursor: pointer;
+}
