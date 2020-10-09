@@ -1,3 +1,6 @@
+import * as Messages from './constants';
+import {getCurrentPeriod} from './common';
+
 export const generateReplyMessage = (message) => {
   message.toLowerCase();
   let resultMessage;
@@ -34,30 +37,31 @@ export const generateReplyMessage = (message) => {
 export const findMatchingResponse = (type) => {
   switch (type) {
     case "Initial":
-      return "hi nice to hear from you"
+      let currentPeriod = getCurrentPeriod();
+      return `${Messages.HI} ${Messages[currentPeriod]} ${Messages.NICE_TO_HEAR}`;
 
     case "Experience":
-      return "I'm having overall experience of 3 years and 3+months"
+      return Messages.EXPERIENCE;
 
     case "Resume":
-      return "Yeah! You can find updated resume in the following link https://github.com/karthick3018/resume/blob/main/Karthick%20Raja%20Resume%20(1).pdf"
+      return Messages.RESUME;
 
     case "Notice":
-      return "If thinks went good I can join in next 30 days"
+      return Messages.NOTICE_PERIOD;
 
     case "Salary":
-      return "Too early let's discuss this after interview"
+      return Messages.SALARY_EXPECTATION;
 
       case "Availability":
-        return "I'm Available from 4pm-8pm (IST) in the weekdays you can send a invite mail to karthickraja@gmail.com"
+        return Messages.AVAILABILITY;
 
     case "Job Change":
-      return "Yeah I'm looking for a company that provides me challenging and friendly work environment"
+      return Messages.JOB_CHANGE;
 
     case "Myself":
-      return "yeah sure!. I'm building web and mobile apps using react and react-native for the past 3+ years. I initially started with react and got so much interest in it. I use middleware such as saga & thunk for async operations.I Cover backed nodejs at needs and can cover styling part too.Mainly loves react and javascript can code in typescript too. Thanks!"
+      return Messages.ABOUT_ME;
 
     default:
-      return "Sry! can't get you"
+      return Messages.DEFAULT;
   }
 }
