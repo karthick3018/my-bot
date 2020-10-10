@@ -11,6 +11,10 @@ export const AFTERNOON = 'Happy noon';
 export const EVENING = 'Happy evening';
 export const NIGHT = 'Happy night';
 
+//General
+export const MY_EMAIL = 'karthickraja3018@gmail.com';
+export const MY_NAME = 'Karthick';
+
 //Response
 export const EXPERIENCE = "I'm having overall experience of 3 years and 3+months in React,React native & Node";
 

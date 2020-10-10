@@ -10,7 +10,13 @@
 .message-header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: burlywood;
+}
+
+.message-name{
+    display: flex;
+    align-items: center;
 }
 
 .message-header figure{
@@ -27,4 +33,8 @@
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+}
+
+.mail-link{
+    padding: 10px;
 }
