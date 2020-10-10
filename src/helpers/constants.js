@@ -3,6 +3,7 @@ export const HI = 'Hi!';
 export const NICE_TO_HEAR = ' nice to hear from you!';
 export const HEY = 'Hey!';
 export const THANKS ='Thanks!'
+export const INITIAL_MESSAGE = "Hi I'm a bot. You can get a quick update before scheduling a interview";
 
 //Time greetings
 export const MORNING = 'Happy morning';

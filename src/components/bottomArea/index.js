@@ -34,7 +34,7 @@ const BottomArea = ({ handleNewReceivedMessage }) => {
           onChange={handleTextAreaChange}
           value={state}
           onKeyPress={handleOnEnter}
-          placeholder="HR queries.."
+          placeholder="HR queries..."
           autoFocus={true}
         />
         <button onClick={handleSend}>send</button>

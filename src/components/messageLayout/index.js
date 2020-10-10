@@ -2,10 +2,11 @@ import React, { useReducer,useRef } from 'react';
 import Linkify from 'react-linkify';
 import BottomArea from '../bottomArea';
 import { generateReplyMessage } from '../../helpers/messageFn';
+import {INITIAL_MESSAGE} from '../../helpers/constants';
 import './messageLayout.css';
 
 const initialState = {
-  messages: [{type:'sent',message:"Hi I'm a bot"}],
+  messages: [{type:'sent',message:INITIAL_MESSAGE}],
 }
 
 const reducer = (state, action) => {
