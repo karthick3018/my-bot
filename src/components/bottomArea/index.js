@@ -21,16 +21,24 @@ const BottomArea = ({ handleNewReceivedMessage }) => {
     setState(message);
   }
 
+  const handleSend = () => {
+      handleNewReceivedMessage(state);
+      setState('');
+  }
+
   return (
     <div className="bottom-area">
       <SuggestionList handleMessageFromSuggestion={handleMessageFromSuggestion} />
-      <textarea
-        onChange={handleTextAreaChange}
-        value={state}
-        onKeyPress={handleOnEnter}
-        placeholder="HR queries.."
-        autoFocus={true}
-      />
+      <div className="bottom-elements">
+        <textarea
+          onChange={handleTextAreaChange}
+          value={state}
+          onKeyPress={handleOnEnter}
+          placeholder="HR queries.."
+          autoFocus={true}
+        />
+        <button onClick={handleSend}>send</button>
+      </div>
     </div>
   )
 }

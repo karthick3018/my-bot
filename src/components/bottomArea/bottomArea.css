@@ -1,11 +1,37 @@
 .bottom-area {
     width: 100%;
     margin:20px 0px;
+    position: relative;
 }
 
 .bottom-area textarea {
   height: 50px;
-  width: 100%;
+  width: 90%;
   resize: none;
+  border: none;
   font-family: sans-serif;
+  padding: 5px;
+}
+
+.bottom-area button {
+  position: absolute;
+  bottom: 15px;
+  padding: 5px;
+  width: 60px;
+  background: aliceblue;
+}
+
+.bottom-area button:hover{
+  box-shadow:  2px 3px 2px #bad6ef;
+  cursor: pointer;
+}
+
+textarea:focus {
+  outline: none;
+  }
+
+.bottom-elements{
+  border: 1px solid;
+  background: white;
+  border-radius: 3px 5px;
 }
