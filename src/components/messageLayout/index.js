@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react';
 import BottomArea from '../bottomArea';
 import { generateReplyMessage } from '../../helpers/messageFn';
+import Linkify from 'react-linkify';
 import './messageLayout.css';
 
 const initialState = {
@@ -52,15 +53,17 @@ const MessageLayout = () => {
   }
 
   return (
-    <div>
+    <>
+     <div className="message-wrapper">
       {state?.messages?.map((eachMsg,i) => (
         <div key={i} className={`message-card ${eachMsg.type}`}> 
-         <p>{eachMsg.message}</p> 
+         <Linkify><p>{eachMsg.message}</p> </Linkify>
         </div>
       ))}
+      </div>
       <BottomArea handleNewReceivedMessage={handleNewReceivedMessage} />
       {state?.isTyping && <p>typing ....</p>}
-    </div>
+    </>
   )
 }
 

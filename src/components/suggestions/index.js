@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import * as Messages from '../../helpers/constants';
 import './suggestions.css';
 
@@ -30,18 +30,12 @@ const suggestions = [
 ]
 
 const SuggestionList = ({handleMessageFromSuggestion}) => {
-  const [state,setState] = useState(suggestions)
- 
-
   const handleSuggestionClick = (suggestion,i) => {
     handleMessageFromSuggestion(Messages[suggestion?.value])
-    let updatedState = [...state];
-    updatedState.splice(i,1);
-    setState(updatedState);
   }
   return (
     <div className="suggestion">
-       {state?.map((eachSuggestion,i)=>{
+       {suggestions?.map((eachSuggestion,i)=>{
          return (
            <span 
             className="suggestion-items" 

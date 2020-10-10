@@ -27,7 +27,11 @@ export const JOB_CHANGE = "Yeah I'm looking for a company that provides me chall
 export const ABOUT_ME = `yeah sure!. I'm building web and mobile apps using react and react-native for the past 3+ years. 
                           I initially started with react and got so much interest in it. I use middleware such as saga & thunk for 
                           async operations.I Cover backed nodejs at needs
-                         and can cover styling part too.Mainly loves react and javascript can code in typescript too. Thanks!`;
+                         and can cover styling part too.Mainly loves react and javascript can code in typescript too.Also check
+                         https://github.com/karthick3018
+                         https://codepen.io/karthick30/
+                         https://dev.to/karthick3018
+                         Thanks!`;
 
 export const DEFAULT = "Sry! can't get you";     
 

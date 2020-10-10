@@ -5,7 +5,6 @@ import './chatArea.css'
 const ChatArea = () => {
   return (
     <div className="container">
-      <p>Chat Area</p>
       <MessageLayout />
     </div>
   )
