@@ -26,3 +26,5 @@ just modify in https://github.com/karthick3018/my-bot/blob/master/src/helpers/co
 Suggestion list you can use as a message template
 
 ![Mid Screen](https://github.com/karthick3018/my-bot/blob/master/screens/suggestions.png)
+
+![Preview](https://github.com/karthick3018/my-bot/blob/master/screens/output.gif)
