@@ -38,7 +38,7 @@ export const ABOUT_ME = `yeah! sure, I'm building web and mobile apps using reac
                          https://dev.to/karthick3018
                          Thanks!`;
 
-export const DEFAULT = "Sry! can't get you";     
+export const DEFAULT = "Sry! I didn't get you";     
 
 //Question
 export const YOUR_EXPERIENCE = "What is your total years of experience?";
