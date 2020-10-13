@@ -1,7 +1,7 @@
 import React, { useReducer,useRef } from 'react';
 import Linkify from 'react-linkify';
 import BottomArea from '../bottomArea';
-import { generateReplyMessage } from '../../helpers/messageFn';
+// import { generateReplyMessage } from '../../helpers/messageFn';
 import {INITIAL_MESSAGE} from '../../helpers/constants';
 import './messageLayout.css';
 
@@ -44,9 +44,13 @@ const MessageLayout = ({handleTyping}) => {
     }, 1000)
   }
 
-  const replyForMessage = (message, existingState) => {
+  const replyForMessage = async(message, existingState) => {
     let updatedState = [...existingState];
-    let newMessage = generateReplyMessage(message);
+    // let newMessage = generateReplyMessage(message); 
+    let newMessage ;
+      await import("../../helpers/messageFn").then(math => {
+      newMessage =  math.generateReplyMessage(message);
+    });
     updatedState = [...updatedState, { type: 'sent', message: newMessage }];
     handleTyping(false);
     dispatch({
