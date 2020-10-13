@@ -40,7 +40,7 @@ export const ABOUT_ME = `yeah! sure, I'm building web and mobile apps using reac
 
 export const DEFAULT = "Sry! I didn't get you";     
 
-//Question
+//Questions
 export const YOUR_EXPERIENCE = "What is your total years of experience?";
 export const YOUR_RESUME = "Can you send your updated resume?";
 export const YOUR_NOTICE_PERIOD = "What is your notice period?";
