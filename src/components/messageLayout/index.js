@@ -48,8 +48,8 @@ const MessageLayout = ({handleTyping}) => {
     let updatedState = [...existingState];
     // let newMessage = generateReplyMessage(message); 
     let newMessage ;
-      await import("../../helpers/messageFn").then(math => {
-      newMessage =  math.generateReplyMessage(message);
+      await import("../../helpers/messageFn").then(helperFn => {
+      newMessage =  helperFn.generateReplyMessage(message);
     });
     updatedState = [...updatedState, { type: 'sent', message: newMessage }];
     handleTyping(false);
