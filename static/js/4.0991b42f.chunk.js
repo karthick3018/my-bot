@@ -1,0 +1,2 @@
+(this["webpackJsonpmy-bot"]=this["webpackJsonpmy-bot"]||[]).push([[4],{37:function(t,n,r){"use strict";r.r(n),r.d(n,"getCurrentPeriod",(function(){return a}));var e=r(38),o=r.n(e),a=function(){var t=new Date,n=parseFloat(o()(t).format("HH"));return n>=6&&n<12?"MORNING":n>=12&&n<17?"AFTERNOON":n>=17&&n<21?"EVENING":"NIGHT"}}}]);
+//# sourceMappingURL=4.0991b42f.chunk.js.map
