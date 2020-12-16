@@ -1,4 +1,5 @@
 import * as Messages from './constants';
+import {getCurrentPeriod} from '../helpers/common'
 
 export const generateReplyMessage = (message) => {
   message.toLowerCase();
@@ -33,14 +34,13 @@ export const generateReplyMessage = (message) => {
   return resultMessage;
 }
 
-export const findMatchingResponse = async(type) => {
+export const findMatchingResponse = (type) => {
   switch (type) {
     case "Initial":
       let currentPeriod;
-      await import ("./common.js").then(eachCommonFn=>{
-        currentPeriod =  eachCommonFn.getCurrentPeriod()
-      })
-      console.log('currentPeriod',currentPeriod)
+    
+        currentPeriod =  getCurrentPeriod()
+       
       return `${Messages.HI} ${Messages[currentPeriod]} ${Messages.NICE_TO_HEAR}`;
 
     case "Experience":
