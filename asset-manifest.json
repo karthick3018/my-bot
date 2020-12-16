@@ -1,29 +1,22 @@
 {
   "files": {
     "main.css": "/my-bot/static/css/main.c8e5df45.chunk.css",
-    "main.js": "/my-bot/static/js/main.a9536993.chunk.js",
-    "main.js.map": "/my-bot/static/js/main.a9536993.chunk.js.map",
-    "runtime-main.js": "/my-bot/static/js/runtime-main.438a7348.js",
-    "runtime-main.js.map": "/my-bot/static/js/runtime-main.438a7348.js.map",
-    "static/js/2.f3f3bfba.chunk.js": "/my-bot/static/js/2.f3f3bfba.chunk.js",
-    "static/js/2.f3f3bfba.chunk.js.map": "/my-bot/static/js/2.f3f3bfba.chunk.js.map",
-    "static/js/3.7df472e7.chunk.js": "/my-bot/static/js/3.7df472e7.chunk.js",
-    "static/js/3.7df472e7.chunk.js.map": "/my-bot/static/js/3.7df472e7.chunk.js.map",
-    "static/js/4.0991b42f.chunk.js": "/my-bot/static/js/4.0991b42f.chunk.js",
-    "static/js/4.0991b42f.chunk.js.map": "/my-bot/static/js/4.0991b42f.chunk.js.map",
-    "static/js/5.b880ddfd.chunk.js": "/my-bot/static/js/5.b880ddfd.chunk.js",
-    "static/js/5.b880ddfd.chunk.js.map": "/my-bot/static/js/5.b880ddfd.chunk.js.map",
+    "main.js": "/my-bot/static/js/main.5c26d081.chunk.js",
+    "main.js.map": "/my-bot/static/js/main.5c26d081.chunk.js.map",
+    "runtime-main.js": "/my-bot/static/js/runtime-main.11cc6783.js",
+    "runtime-main.js.map": "/my-bot/static/js/runtime-main.11cc6783.js.map",
+    "static/js/2.5a4f36df.chunk.js": "/my-bot/static/js/2.5a4f36df.chunk.js",
+    "static/js/2.5a4f36df.chunk.js.map": "/my-bot/static/js/2.5a4f36df.chunk.js.map",
     "index.html": "/my-bot/index.html",
-    "precache-manifest.a227f6fb6d8cfb37d5aaa1c5712ab8eb.js": "/my-bot/precache-manifest.a227f6fb6d8cfb37d5aaa1c5712ab8eb.js",
+    "precache-manifest.f965afa578fdbb73d4c8b63d03a3f6f9.js": "/my-bot/precache-manifest.f965afa578fdbb73d4c8b63d03a3f6f9.js",
     "service-worker.js": "/my-bot/service-worker.js",
     "static/css/main.c8e5df45.chunk.css.map": "/my-bot/static/css/main.c8e5df45.chunk.css.map",
-    "static/js/2.f3f3bfba.chunk.js.LICENSE.txt": "/my-bot/static/js/2.f3f3bfba.chunk.js.LICENSE.txt",
-    "static/js/3.7df472e7.chunk.js.LICENSE.txt": "/my-bot/static/js/3.7df472e7.chunk.js.LICENSE.txt"
+    "static/js/2.5a4f36df.chunk.js.LICENSE.txt": "/my-bot/static/js/2.5a4f36df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.438a7348.js",
-    "static/js/2.f3f3bfba.chunk.js",
+    "static/js/runtime-main.11cc6783.js",
+    "static/js/2.5a4f36df.chunk.js",
     "static/css/main.c8e5df45.chunk.css",
-    "static/js/main.a9536993.chunk.js"
+    "static/js/main.5c26d081.chunk.js"
   ]
 }
