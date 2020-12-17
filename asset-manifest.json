@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-bot/static/css/main.c8e5df45.chunk.css",
-    "main.js": "/my-bot/static/js/main.20f52dbb.chunk.js",
-    "main.js.map": "/my-bot/static/js/main.20f52dbb.chunk.js.map",
+    "main.js": "/my-bot/static/js/main.afb885b6.chunk.js",
+    "main.js.map": "/my-bot/static/js/main.afb885b6.chunk.js.map",
     "runtime-main.js": "/my-bot/static/js/runtime-main.11cc6783.js",
     "runtime-main.js.map": "/my-bot/static/js/runtime-main.11cc6783.js.map",
     "static/js/2.2eb8bfe9.chunk.js": "/my-bot/static/js/2.2eb8bfe9.chunk.js",
     "static/js/2.2eb8bfe9.chunk.js.map": "/my-bot/static/js/2.2eb8bfe9.chunk.js.map",
     "index.html": "/my-bot/index.html",
-    "precache-manifest.5f47f2db9f6b84c363fbf3a0d8263b01.js": "/my-bot/precache-manifest.5f47f2db9f6b84c363fbf3a0d8263b01.js",
+    "precache-manifest.6c25d623de5c8c8491dbdb294ec4dc47.js": "/my-bot/precache-manifest.6c25d623de5c8c8491dbdb294ec4dc47.js",
     "service-worker.js": "/my-bot/service-worker.js",
     "static/css/main.c8e5df45.chunk.css.map": "/my-bot/static/css/main.c8e5df45.chunk.css.map",
     "static/js/2.2eb8bfe9.chunk.js.LICENSE.txt": "/my-bot/static/js/2.2eb8bfe9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.11cc6783.js",
     "static/js/2.2eb8bfe9.chunk.js",
     "static/css/main.c8e5df45.chunk.css",
-    "static/js/main.20f52dbb.chunk.js"
+    "static/js/main.afb885b6.chunk.js"
   ]
 }
